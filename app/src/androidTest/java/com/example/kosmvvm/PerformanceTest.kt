@@ -39,7 +39,7 @@ class PerformanceTest {
         sleep(2000)
     }
 
-    /*@Test
+    @Test
     fun A_testSkenarioTambahDanHapus30Kali() {
         Log.d("ROBOT_TEST", "=== MULAI TEST A: TAMBAH & HAPUS ===")
         val csvFileNameTambahHapus = "TambahHapus_MVI_30x_${System.currentTimeMillis()}.csv"
@@ -140,9 +140,9 @@ class PerformanceTest {
             }
             sleep(2000)
         }
-    }*/
+    }
 
-    /*@Test
+    @Test
     fun B_testSkenarioInitialLoad() {
         Log.d("ROBOT_TEST", "=== MULAI TEST B: INITIAL LOAD ===")
         val csvFileNameLoad = "InitialLoad_MVI_30x_${System.currentTimeMillis()}.csv"
@@ -174,7 +174,7 @@ class PerformanceTest {
                 Log.e("ROBOT_TEST", "Error iterasi $iterasi: ${e.message}")
             }
         }
-    }*/
+    }
 
     @Test
     fun C_testSkenarioSearch() {
